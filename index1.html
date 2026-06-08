@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Dashboard</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">LearnHub</div>
+    <h2>Learning Dashboard</h2>
+    <div class="student">
+        <img src="images/avatar.png" alt="">
+        <span>Điều</span>
+    </div>
+</header>
+
+<div class="container">
+
+    <aside>
+        <ul id="menu">
+            <li class="thu">Dashboard</li>
+            <li class="#">Môn học</li>
+            <li>Bài tập</li>
+            <li>Kết quả học tập</li>
+            <li>Tài khoản</li>
+        </ul>
+    </aside>
+
+    <main>
+
+        <div class="selected">
+            <h3>MÔN HỌC ĐANG CHỌN</h3>
+            <p id="courseName">Chưa chọn</p>
+            <p id="courseProgress">Tiến độ: 0%</p>
+        </div>
+
+        <div class="courses" id="courses">
+
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg">
+                <h4>HTML/CSS</h4>
+                <p>90%</p>
+                <button onclick="showCourse('HTML/CSS',90)">Xem</button>
+            </div>
+
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png">
+                <h4>JavaScript</h4>
+                <p>80%</p>
+                <button onclick="showCourse('JavaScript',80)">Xem</button>
+            </div>
+
+            <div class="card">
+                <img src="images/course3.jpg">
+                <h4>PHP</h4>
+                <p>75%</p>
+                <button onclick="showCourse('PHP',75)">Xem</button>
+            </div>
+
+            <div class="card">
+                <img src="https://bizflycloud.vn/tin-tuc/mysql-la-gi-tai-sao-nen-su-dung-mysql-20200917180705499.htm#">
+                <h4>MySQL</h4>
+                <p>85%</p>
+                <button onclick="showCourse('MySQL',85)">Xem</button>
+            </div>
+
+            <div class="card">
+                <img src="images/course2.jpg">
+                <h4>Laravel</h4>
+                <p>60%</p>
+                <button onclick="showCourse('Laravel',60)">Xem</button>
+            </div>
+
+            <div class="card">
+                <img src="images/course3.jpg">
+                <h4>AI Cơ bản</h4>
+                <p>70%</p>
+                <button onclick="showCourse('AI Cơ bản',70)">Xem</button>
+            </div>
+
+        </div>
+
+        <section class="stats">
+            <div>6 Môn học</div>
+            <div>24 Bài tập</div>
+            <div>8.2 Điểm TB</div>
+            <div>18 Tín chỉ</div>
+        </section>
+
+    </main>
+
+</div>
+
+<footer>
+    MSSV: 251ctt051 |
+    Họ tên: Điều |
+    Ngày thi: 08/06/2026
+</footer>
+
+<script src="js/script1.js"></script>
+</body>
+</html>
