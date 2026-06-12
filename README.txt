@@ -32,6 +32,8 @@ Thư mục được tổ chức chuẩn theo yêu cầu đề bài:
     └── README.txt
 
 5. GHI CHÚ BÀI LÀM
+
 ------------------
 - Giao diện đã được tối ưu hiển thị chuẩn xác trên các trình duyệt hiện đại (Chrome, Edge).
 - Đã hoàn thành đầy đủ cấu trúc các phần: Header (Flexbox), Sidebar cố định bên trái, Nội dung chính chia lưới 3 cột hiển thị danh sách môn học kèm thanh tiến độ.
+linK: https://251ctt051dieu-stack.github.io/251ctt051_So-B-Y-i-u/
